@@ -4,10 +4,10 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node src/build/index.js",
+    "start": "node build/index.js",
     "dev": "nodemon",
     "build": "tsc -p tsconfig.json"
   },

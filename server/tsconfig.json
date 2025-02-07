@@ -2,10 +2,12 @@
   "compilerOptions": {
     "outDir": "build",
     "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "bundler",
+    "module": "Node16",
+    "moduleResolution": "node16",
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
     "strict": true,
-  }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
 }

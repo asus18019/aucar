@@ -1,5 +1,5 @@
 import Fastify from 'fastify';
-import fastifyRequestLogger from "@mgcrea/fastify-request-logger";
+import fastifyRequestLogger from '@mgcrea/fastify-request-logger';
 import { userController } from './app/user/user.controller';
 
 const fastify = Fastify({
