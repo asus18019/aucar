@@ -18,6 +18,9 @@ const fastify = Fastify({
 fastify.register(fastifyRequestLogger);
 
 fastify.register(userController, { prefix: '/api' });
+fastify.get('/', async (_request, reply) => {
+  return reply.status(200).send({ message: "Base host for AUCAR server" });
+});
 
 const start = async () => {
   try {
